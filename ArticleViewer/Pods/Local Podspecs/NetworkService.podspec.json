@@ -1,0 +1,35 @@
+{
+  "name": "NetworkService",
+  "version": "0.1.0",
+  "summary": "A short description of NetworkService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/himanshuingole/NetworkService",
+  "authors": {
+    "Himanshu Ingole": "srithimanshu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Himanshu Ingole/NetworkService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.3"
+  },
+  "source_files": "**/*.{swift}",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SwiftyJSON": [
+      "~> 4.0"
+    ],
+    "CommonModule": [
+
+    ]
+  },
+  "resources": "**/*.{xib,png,json,xcassets}",
+  "resource_bundles": {
+    "NetworkService": [
+      "Pod/**/*.xib"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module ArticleModuleService {
+  umbrella header "ArticleModuleService-umbrella.h"
+
+  export *
+  module * { export * }
+}

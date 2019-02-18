@@ -1,0 +1,29 @@
+{
+  "name": "CommonModule",
+  "version": "0.1.0",
+  "summary": "A short description of CommonModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/himanshuingole/CommonModule",
+  "authors": {
+    "Himanshu Ingole": "srithimanshu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Himanshu Ingole/CommonModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.3"
+  },
+  "source_files": "**/*.{swift}",
+  "dependencies": {
+    "IHProgressHUD": [
+
+    ]
+  },
+  "resources": "**/*.{xib,png,json,xcassets}",
+  "resource_bundles": {
+    "CommonModule": [
+      "Pod/**/*.xib"
+    ]
+  }
+}

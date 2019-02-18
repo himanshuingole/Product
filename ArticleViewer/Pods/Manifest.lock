@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.8.1)
+  - ArticleModule (0.1.0):
+    - ArticleModuleService
+    - CommonModule
+    - IHProgressHUD
+    - Kingfisher (~> 5.0)
+  - ArticleModuleService (0.1.0):
+    - NetworkService
+  - CommonModule (0.1.0):
+    - IHProgressHUD
+  - IHProgressHUD (0.1.4)
+  - Kingfisher (5.1.1)
+  - NetworkService (0.1.0):
+    - Alamofire
+    - CommonModule
+    - SwiftyJSON (~> 4.0)
+  - SwiftLint (0.30.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - ArticleModule (from `DevelopmentPods/ArticleModule`)
+  - ArticleModuleService (from `DevelopmentPods/ArticleModuleService`)
+  - CommonModule (from `DevelopmentPods/CommonModule`)
+  - NetworkService (from `DevelopmentPods/NetworkService`)
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IHProgressHUD
+    - Kingfisher
+    - SwiftLint
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ArticleModule:
+    :path: DevelopmentPods/ArticleModule
+  ArticleModuleService:
+    :path: DevelopmentPods/ArticleModuleService
+  CommonModule:
+    :path: DevelopmentPods/CommonModule
+  NetworkService:
+    :path: DevelopmentPods/NetworkService
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ArticleModule: cb4132d472b899bc4047d187af4ae64134235420
+  ArticleModuleService: 7708ec0f0402d660b19ce9216d05452f70e7dd3e
+  CommonModule: 7eb5b43a3aa4b382e5376aedec8e272df058fa98
+  IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
+  NetworkService: 709ecbc7af669126274ccbc5016ef899c1d05a13
+  SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 4758631420c2f75a6b62a1d6b052226a493d3e32
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_ArticleViewer {
+  umbrella header "Pods-ArticleViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

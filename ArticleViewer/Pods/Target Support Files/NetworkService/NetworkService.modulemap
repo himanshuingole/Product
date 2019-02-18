@@ -1,0 +1,6 @@
+framework module NetworkService {
+  umbrella header "NetworkService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DevelopmentPods/NetworkService/Classes/ServiceCallBase.swift"
+            timestampString = "572161716.69346"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "sendRequest(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkService.ServiceCallBase.sendRequest(completion: Swift.Optional&lt;(CommonModule.ServiceResultType&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "NetworkService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshuingole3/IOSDev/Product/ArticleViewer/DevelopmentPods/NetworkService/Classes/ServiceCallBase.swift"
+                  timestampString = "572159392.81122"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in NetworkService.ServiceCallBase.sendRequest(completion: Swift.Optional&lt;(CommonModule.ServiceResultType&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "NetworkService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshuingole3/IOSDev/Product/ArticleViewer/DevelopmentPods/NetworkService/Classes/ServiceCallBase.swift"
+                  timestampString = "572159392.814604"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

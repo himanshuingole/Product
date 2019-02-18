@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ArticleViewer' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    DevelopmentDirectory = 'DevelopmentPods'
+
+    def devPod(name, *requirement)
+    podPath = root_name(name)
+    pod name, :path => "#{DevelopmentDirectory}/#{podPath}"
+end
+def root_name(name)
+    name.split('/').first
+end
+# Pods for ArticleViewer
+
+pod 'SwiftLint'
+devPod 'NetworkService'
+devPod 'CommonModule'
+devPod 'ArticleModule'
+devPod 'ArticleModuleService'
+
+target 'ArticleViewerTests' do
+    inherit! :search_paths
+    # Pods for testing
+end
+
+end

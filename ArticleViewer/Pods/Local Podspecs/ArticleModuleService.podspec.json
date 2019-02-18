@@ -1,0 +1,29 @@
+{
+  "name": "ArticleModuleService",
+  "version": "0.1.0",
+  "summary": "A short description of ArticleModuleService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/himanshuingole/ArticleModuleService",
+  "authors": {
+    "Himanshu Ingole": "srithimanshu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Himanshu Ingole/ArticleModuleService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.3"
+  },
+  "source_files": "**/*.{swift}",
+  "dependencies": {
+    "NetworkService": [
+
+    ]
+  },
+  "resources": "**/*.{xib,png,json,xcassets,storyboard}",
+  "resource_bundles": {
+    "ArticleModuleService": [
+      "Pod/**/*.xib"
+    ]
+  }
+}
