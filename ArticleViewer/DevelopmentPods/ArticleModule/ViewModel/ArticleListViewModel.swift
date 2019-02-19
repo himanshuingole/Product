@@ -31,7 +31,7 @@ protocol ArticleListViewModelType {
     ///
     /// - Parameter index: item index
     /// - Returns: Article view model
-    func item(for index: Int) -> ArticleViewModelType
+    func item(for index: Int) -> ArticleViewModelType?
 }
 
 /// Adop ArticleListViewModelType
@@ -86,7 +86,7 @@ class ArticleListViewModel: ArticleListViewModelType {
         return viewModels.count
     }
 
-    func item(for index: Int) -> ArticleViewModelType {
-        return viewModels[index]
+    func item(for index: Int) -> ArticleViewModelType? {
+        return viewModels.count > index ? viewModels[index] : nil
     }
 }

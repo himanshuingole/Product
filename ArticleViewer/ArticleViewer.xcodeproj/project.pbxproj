@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		3676FB8EF4FB27A8AF4A0886 /* Pods_ArticleViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4640738180D32C4442F9BAF0 /* Pods_ArticleViewerTests.framework */; };
 		58C663D5662A46C90035FDC4 /* Pods_ArticleViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EDA63C6E6B133F11E7D5EF /* Pods_ArticleViewer.framework */; };
+		EA37B5E9221BADFD00574CDC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37B5E8221BADFD00574CDC /* main.swift */; };
 		EA61A68E221A42A2009AA175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61A68D221A42A2009AA175 /* AppDelegate.swift */; };
 		EA61A695221A42A3009AA175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA61A694221A42A3009AA175 /* Assets.xcassets */; };
 		EA61A698221A42A3009AA175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA61A696221A42A3009AA175 /* LaunchScreen.storyboard */; };
-		EA61A6A3221A42A3009AA175 /* ArticleViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61A6A2221A42A3009AA175 /* ArticleViewerTests.swift */; };
+		EA61A6A3221A42A3009AA175 /* ArticleListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61A6A2221A42A3009AA175 /* ArticleListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		757CC3242D9EDC8E7883F6A6 /* Pods-ArticleViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.release.xcconfig"; sourceTree = "<group>"; };
 		A5092BBA1661D97CE5D40F5C /* Pods-ArticleViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AEDF1249EF6797C3F0C0723F /* Pods-ArticleViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		EA37B5E8221BADFD00574CDC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EA61A68A221A42A2009AA175 /* ArticleViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA61A68D221A42A2009AA175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA61A694221A42A3009AA175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA61A697221A42A3009AA175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA61A699221A42A3009AA175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA61A69E221A42A3009AA175 /* ArticleViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticleViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA61A6A2221A42A3009AA175 /* ArticleViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewerTests.swift; sourceTree = "<group>"; };
+		EA61A6A2221A42A3009AA175 /* ArticleListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModelTests.swift; sourceTree = "<group>"; };
 		EA61A6A4221A42A3009AA175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA9F3D766D4371AC4F52197C /* Pods-ArticleViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EA37B5EA221BAEF500574CDC /* ArticleModule */ = {
+			isa = PBXGroup;
+			children = (
+				EA37B5EB221BBAC300574CDC /* TestSupport */,
+				EA61A6A2221A42A3009AA175 /* ArticleListViewModelTests.swift */,
+			);
+			path = ArticleModule;
+			sourceTree = "<group>";
+		};
+		EA37B5EB221BBAC300574CDC /* TestSupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestSupport;
+			sourceTree = "<group>";
+		};
 		EA61A681221A42A2009AA175 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +127,7 @@
 				EA61A694221A42A3009AA175 /* Assets.xcassets */,
 				EA61A696221A42A3009AA175 /* LaunchScreen.storyboard */,
 				EA61A699221A42A3009AA175 /* Info.plist */,
+				EA37B5E8221BADFD00574CDC /* main.swift */,
 			);
 			path = ArticleViewer;
 			sourceTree = "<group>";
@@ -116,7 +135,7 @@
 		EA61A6A1221A42A3009AA175 /* ArticleViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA61A6A2221A42A3009AA175 /* ArticleViewerTests.swift */,
+				EA37B5EA221BAEF500574CDC /* ArticleModule */,
 				EA61A6A4221A42A3009AA175 /* Info.plist */,
 			);
 			path = ArticleViewerTests;
@@ -326,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA37B5E9221BADFD00574CDC /* main.swift in Sources */,
 				EA61A68E221A42A2009AA175 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA61A6A3221A42A3009AA175 /* ArticleViewerTests.swift in Sources */,
+				EA61A6A3221A42A3009AA175 /* ArticleListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

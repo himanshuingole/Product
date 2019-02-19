@@ -17,6 +17,7 @@ public protocol ArticleServiceType: NetworkListenerServiceType {
 
 open class ArticleServiceDispatcher {
     public static let sharedInstance = ArticleServiceDispatcher()
+    public var mockService: Bool = false
 
     private init() {
     }
@@ -31,7 +32,7 @@ extension ArticleServiceDispatcher: ArticleServiceType {
     /// This place can be used to mock the service.
     /// - Parameter completion: completion handler
     public func getArticle(completion: @escaping ((ServiceResultType<[ArticleModel]>) -> Void)) {
-        let service = ArticleService()
+        let service = mockService ? MockArticleService() : ArticleService()
         service.getArticle(completion: completion)
     }
 }

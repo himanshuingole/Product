@@ -15,7 +15,10 @@ class ArticleCollectionViewCell: UICollectionViewCell {
     /// display article image
     @IBOutlet private weak var imageView: UIImageView!
 
-    func configure(_ viewModel: ArticleViewModelType) {
+    func configure(_ viewModel: ArticleViewModelType?) {
+        guard let viewModel = viewModel else {
+            return
+        }
         topicLabel.text = viewModel.title
         imageView.kf.indicatorType = .activity
         let processor = RoundCornerImageProcessor(cornerRadius: 20)

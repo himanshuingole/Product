@@ -9,7 +9,6 @@ import ArticleModule
 import CommonModule
 import NetworkService
 import UIKit
-@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 

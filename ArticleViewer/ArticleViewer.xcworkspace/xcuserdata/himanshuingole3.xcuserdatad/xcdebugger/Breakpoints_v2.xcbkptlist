@@ -59,5 +59,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DevelopmentPods/ArticleModuleService/Services/ArticleService.swift"
+            timestampString = "572249039.043656"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getArticle(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CommonModule.ServiceResultType&lt;SwiftyJSON.JSON&gt;) -&gt; () in ArticleModuleService.ArticleService.getArticle(completion: (CommonModule.ServiceResultType&lt;Swift.Array&lt;ArticleModuleService.ArticleModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ArticleModuleService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshuingole3/IOSDev/Product/ArticleViewer/DevelopmentPods/ArticleModuleService/Services/ArticleService.swift"
+                  timestampString = "572249039.5629261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CommonModule.ServiceResultType&lt;SwiftyJSON.JSON&gt;) -&gt; () in ArticleModuleService.ArticleService.getArticle(completion: (CommonModule.ServiceResultType&lt;Swift.Array&lt;ArticleModuleService.ArticleModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ArticleModuleService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshuingole3/IOSDev/Product/ArticleViewer/DevelopmentPods/ArticleModuleService/Services/ArticleService.swift"
+                  timestampString = "572249039.565724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "218">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
