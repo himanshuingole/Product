@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -384,7 +384,7 @@
 		04827E38E4E87E87C6A552AB812EAE14 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		0660C830381E84E2B5C333DE7AB07BF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07A2718A23C4A03C6EA9D80D9B40696C /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
-		07DEAEDAF5512E16DCCA797E354DA66F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DEAEDAF5512E16DCCA797E354DA66F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B2BCBE2B44F4D7C09EEF1B1E4706B1 /* ServiceCallBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceCallBase.swift; path = Classes/ServiceCallBase.swift; sourceTree = "<group>"; };
 		095A60AA3C943CD59EF323E2A24CA7B9 /* ArticleFlowInitiator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleFlowInitiator.swift; sourceTree = "<group>"; };
 		097B9017E071889D5EFDA729D8BED204 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
@@ -409,7 +409,7 @@
 		1FD83D2692CE213901873D327D22DB7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2066017AB60477DB6E2D4066C9CC5E42 /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask.png"; path = "IHProgressHUD/Classes/IHProgressHUD.bundle/angle-mask.png"; sourceTree = "<group>"; };
 		20AAA87DA53A44AA57D67708739AAEF9 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
-		21FC05D98D4E9C66962544CF1818BD6F /* ArticleModuleService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArticleModuleService.bundle; path = "ArticleModuleService-ArticleModuleService.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FC05D98D4E9C66962544CF1818BD6F /* ArticleModuleService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticleModuleService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F87D01DAB144CFF56D8EE4491ABFD9 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		232A8DF6E7501092FAF2DF6748BC077A /* Pods-ArticleViewerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArticleViewerTests.modulemap"; sourceTree = "<group>"; };
 		23BBBAD6FEF4072E1B0D2E61D92583F4 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "IHProgressHUD/Classes/IHProgressHUD.bundle/success@2x.png"; sourceTree = "<group>"; };
@@ -423,7 +423,7 @@
 		2BEFD40CB60F254900A0043F65AA0607 /* ResourceBundle-ArticleModuleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ArticleModuleService-Info.plist"; sourceTree = "<group>"; };
 		2DB0B0C41BC9D45B10D25B48362E148C /* NetworkService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkService-umbrella.h"; sourceTree = "<group>"; };
 		2DBF56AEF6BEF85223D1BBBD99A721E9 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
-		3073443F121D3AADD0827D5DF4754515 /* NetworkService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NetworkService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3073443F121D3AADD0827D5DF4754515 /* NetworkService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NetworkService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3101D730BC667D1A657CFC84B7443D8E /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		3135262B464BA4FD1FFDDE9C225E279B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		3145F6507DA719530D74BBC787376D2D /* CommonModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonModule-umbrella.h"; sourceTree = "<group>"; };
@@ -438,7 +438,7 @@
 		3AAA0B7F777A9BE398563A998E629A75 /* DetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3ABED9FF5C9EDA13C5E73B8589B9A839 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
 		3BD5C001D701894BD0C39C5699DBB3A1 /* ArticleModuleService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ArticleModuleService-dummy.m"; sourceTree = "<group>"; };
-		3CFC4EACADC02744FCD183BDF6D198CA /* CommonModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CommonModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3CFC4EACADC02744FCD183BDF6D198CA /* CommonModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CommonModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3D7A3D989F2CEDDA26019897527724F5 /* Pods-ArticleViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArticleViewer-frameworks.sh"; sourceTree = "<group>"; };
 		3E5F96639CCDBD578834CFA77392D17C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF137EB9C608CF77E163D81719795A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -448,7 +448,7 @@
 		41985AF9FC011297078F930FECB96C36 /* MockArticleService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MockArticleService.swift; sourceTree = "<group>"; };
 		41A8764A32E06D9F0A3174BFDCB6F02B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		432E4A8EE515EB650F0456D038386F41 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = info.png; path = IHProgressHUD/Classes/IHProgressHUD.bundle/info.png; sourceTree = "<group>"; };
-		44B1C7E9EB5652B5AC3978103A70ABA9 /* IHProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHProgressHUD.framework; path = IHProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B1C7E9EB5652B5AC3978103A70ABA9 /* IHProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IHProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FFD0F33D1238F5C70E13AC64A7815D /* ServiceResultType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServiceResultType.swift; sourceTree = "<group>"; };
 		4AC642EF391DB18975A789B2251931B2 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		4C83FD9833C10414CD34126D3372F4AD /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
@@ -469,7 +469,7 @@
 		5C51C02ED20FDC7AF124A22D9A2596B6 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		5C7266209DCD0A2FCE9B84A69B69FD3C /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@2x.png"; path = "IHProgressHUD/Classes/IHProgressHUD.bundle/angle-mask@2x.png"; sourceTree = "<group>"; };
 		5D7E15B690ED84620BD8DEAE66910ED0 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
-		5E244AB46A7F74CDAB094D4F020852AB /* NetworkService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NetworkService.bundle; path = "NetworkService-NetworkService.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E244AB46A7F74CDAB094D4F020852AB /* NetworkService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		605F1A425A457052B80F53A703B4ACCE /* ModuleDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModuleDetector.swift; sourceTree = "<group>"; };
 		60F3B5FAB730ECD1B68B4E833B834D65 /* ResourceBundle-CommonModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CommonModule-Info.plist"; sourceTree = "<group>"; };
 		6145128B176B5A4FDAF9B36500F14E90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -490,12 +490,12 @@
 		7B55BDDA79A9278EA3AE440BE67561D5 /* Pods-ArticleViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArticleViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BAF73C73441DAC72D142C7F68DC24DC /* Pods-ArticleViewerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArticleViewerTests-umbrella.h"; sourceTree = "<group>"; };
 		7C2AAB38A96F0E515E230151C81DE10D /* CommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C9DF4717E3FBB496C8AF9FE933BC51A /* CommonModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CommonModule.bundle; path = "CommonModule-CommonModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9DF4717E3FBB496C8AF9FE933BC51A /* CommonModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D60843E1C637E4653B8DB8E1CFB500D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		808532C48C0D8AE2857E7286005A0B76 /* Pods-ArticleViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArticleViewer-acknowledgements.plist"; sourceTree = "<group>"; };
-		81BF5AFFBD2C7849147192F1A0BAB63D /* ArticleModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ArticleModule.framework; path = ArticleModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BF5AFFBD2C7849147192F1A0BAB63D /* ArticleModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArticleModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		824B8FABC9F7E6877FC86BA1B00AA3A5 /* Behaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Behaviour.swift; sourceTree = "<group>"; };
-		840D942E978F1D81B260D799EDA4A750 /* NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NetworkService.framework; path = NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D942E978F1D81B260D799EDA4A750 /* NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8579671197E944A062BDD449F630439B /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
 		861E64E397590AAF6B7B4B6E0FDDE7BC /* ProgressIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		870FB2621A01916153DFCF2AE8FDEC09 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -505,10 +505,10 @@
 		8FE9921919008CB550DD47BC23C9224E /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Classes/NetworkManager.swift; sourceTree = "<group>"; };
 		906EFE02E98DAC9584BBF8C69810A24D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		91265D35AE0FD5EFA5FA5682EA56694A /* ArticleModuleService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArticleModuleService-prefix.pch"; sourceTree = "<group>"; };
-		915925944F75E2CFF053EAC9820F19F1 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B6DA675B51F46E3AC5DC7B8B6C4D68 /* ArticleModuleService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ArticleModuleService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		915925944F75E2CFF053EAC9820F19F1 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B6DA675B51F46E3AC5DC7B8B6C4D68 /* ArticleModuleService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ArticleModuleService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		934DDA0A35F8C2458353A0DD42400C16 /* IndefiniteAnimatedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndefiniteAnimatedView.swift; path = IHProgressHUD/Classes/IndefiniteAnimatedView.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93AA880C9F1B3662F75A241C13E3D739 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
 		94A966186E906C8170DC927D680C124B /* Pods-ArticleViewerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArticleViewerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96B6BAAA4DC537F8BC5A032EA49CB9DB /* ArticleModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
@@ -521,7 +521,7 @@
 		9A928B7B50906A32966183D209512EC0 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		9B1E54366CE148EF8557080DC3702233 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CA5F656F99FC9762787585297F4CE05 /* MasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		9D81B2ACF06816802AEE9BAC8C5EA3B3 /* ArticleModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ArticleModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D81B2ACF06816802AEE9BAC8C5EA3B3 /* ArticleModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ArticleModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D8FFCA49280B021B3181A18A37F2DFC /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "IHProgressHUD/Classes/IHProgressHUD.bundle/error@2x.png"; sourceTree = "<group>"; };
 		9D9DA4B7257FDBE74E7541DF617DA271 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = success.png; path = IHProgressHUD/Classes/IHProgressHUD.bundle/success.png; sourceTree = "<group>"; };
 		9ED9B0E9BA7661C318FAE1C606E1FCE4 /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
@@ -534,7 +534,7 @@
 		AA7A330E1CE2F4FEBD9F69D03DA64B0A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		AB747509503E253BDCF41C775C81377A /* NetworkService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NetworkService-dummy.m"; sourceTree = "<group>"; };
 		AD28343B4D5F0FBF083055E5498AC146 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
-		AD4E16D80D7385C8FE845BBA19162688 /* Pods_ArticleViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArticleViewerTests.framework; path = "Pods-ArticleViewerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4E16D80D7385C8FE845BBA19162688 /* Pods_ArticleViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArticleViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF0F96B263B3D12379715D2E7FFE38B /* ArticleModuleService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArticleModuleService-umbrella.h"; sourceTree = "<group>"; };
 		B0893E3DD1856DCD63E7FCD69486E678 /* ArticleViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		B3302D6620CD58E2355A8FFD001A8E6B /* ArticleModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArticleModule-prefix.pch"; sourceTree = "<group>"; };
@@ -542,16 +542,16 @@
 		B5C12A9E45B14F88EF0DA86FFA0A9B65 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		B68C98D73F2EA83A246FA8CEF1D1D586 /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
 		B8A494C0C0AF79994121171F69AD1F56 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		BB44677C69F76CE71F528F0C7F4D4D76 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB44677C69F76CE71F528F0C7F4D4D76 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB79ADB059C7D3D1B0AF7EDCD6E6A187 /* ResourceBundle-ArticleModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ArticleModule-Info.plist"; sourceTree = "<group>"; };
 		BDDD7A5D020E5BDBF97F564D8FDD394A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF8804D5C6E81B7698E0C91BDB2B2196 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
-		C0661036B83B2DAF664ED7CA18326D1F /* ArticleModuleService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ArticleModuleService.framework; path = ArticleModuleService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0661036B83B2DAF664ED7CA18326D1F /* ArticleModuleService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArticleModuleService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10F929750A27987F56F45FAF6249BF5 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		C35655A01D4113DFE52B1BCD25759A5B /* Error+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
-		CA19525FFBFCE577A783C5EF26B93533 /* CommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonModule.framework; path = CommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19525FFBFCE577A783C5EF26B93533 /* CommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8B09948FEDAF46968B48674ABF40FC /* ArticleService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
-		CC29D025249E3BA723CB37555E64A596 /* ArticleModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArticleModule.bundle; path = "ArticleModule-ArticleModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC29D025249E3BA723CB37555E64A596 /* ArticleModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticleModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB4CFD37FAA6864B5FFDF5D775972D1 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/General/Deprecated.swift; sourceTree = "<group>"; };
 		D138925CD5EAD8CD5CF2E11D5BC166B9 /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
 		D2E328C341D618088AD8C7C02A8ED6C7 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
@@ -574,7 +574,7 @@
 		ED6C506DC3C4BC5E0B6280E4CB9749DF /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
 		EE023780C1456797489A94A19AE37C05 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		F4059A32B9A2BA6C7F0CD95284973F08 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
-		F4DA922487C96D8861B9BE402B663C18 /* Pods_ArticleViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArticleViewer.framework; path = "Pods-ArticleViewer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DA922487C96D8861B9BE402B663C18 /* Pods_ArticleViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArticleViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7970F71F12D4497735D6E0711F26E7C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		F87D3A8CD260882FD5CF435DA3BD90BD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		F923276EAB796A42A5BDFEF0644DB4ED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -762,7 +762,6 @@
 				861E64E397590AAF6B7B4B6E0FDDE7BC /* ProgressIndicator.swift */,
 				45FFD0F33D1238F5C70E13AC64A7815D /* ServiceResultType.swift */,
 			);
-			name = BaseClasses;
 			path = BaseClasses;
 			sourceTree = "<group>";
 		};
@@ -820,7 +819,6 @@
 				9CA5F656F99FC9762787585297F4CE05 /* MasterViewController.swift */,
 				988A1C8F43497BCC55C8B15C8E4A4440 /* cell */,
 			);
-			name = Screens;
 			path = Screens;
 			sourceTree = "<group>";
 		};
@@ -829,7 +827,6 @@
 			children = (
 				96B6BAAA4DC537F8BC5A032EA49CB9DB /* ArticleModel.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -854,7 +851,6 @@
 				713F28E6C783DE9E2A33654D09EA384A /* success@3x.png */,
 				A471BC65760CDBBDA43F260074B83667 /* Support Files */,
 			);
-			name = IHProgressHUD;
 			path = IHProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -908,7 +904,6 @@
 				DFAC2C915AB99016918748E53C3F8B26 /* UIButton+Kingfisher.swift */,
 				6969FBE11895A89082C236370538A8C9 /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -983,7 +978,6 @@
 			children = (
 				605F1A425A457052B80F53A703B4ACCE /* ModuleDetector.swift */,
 			);
-			name = Singleton;
 			path = Singleton;
 			sourceTree = "<group>";
 		};
@@ -992,7 +986,6 @@
 			children = (
 				16E2C7A1C0416F11553194C1B21A7756 /* Article.storyboard */,
 			);
-			name = Storyboard;
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
@@ -1043,7 +1036,6 @@
 			children = (
 				824B8FABC9F7E6877FC86BA1B00AA3A5 /* Behaviour.swift */,
 			);
-			name = Subjects;
 			path = Subjects;
 			sourceTree = "<group>";
 		};
@@ -1078,7 +1070,6 @@
 			children = (
 				CA8B09948FEDAF46968B48674ABF40FC /* ArticleService.swift */,
 			);
-			name = Services;
 			path = Services;
 			sourceTree = "<group>";
 		};
@@ -1095,7 +1086,6 @@
 			children = (
 				870FB2621A01916153DFCF2AE8FDEC09 /* Media.xcassets */,
 			);
-			name = AssetsCatelog;
 			path = AssetsCatelog;
 			sourceTree = "<group>";
 		};
@@ -1104,7 +1094,6 @@
 			children = (
 				61EB2DA0B3E6DFFE5A74894FEB822560 /* ArticleCollectionViewCell.swift */,
 			);
-			name = cell;
 			path = cell;
 			sourceTree = "<group>";
 		};
@@ -1128,7 +1117,6 @@
 				D63EEBE8230032DFF272E4A79846DD94 /* SwiftyJSON.swift */,
 				84D74A2EC781B6D7F4AED1EDC3DFD85C /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -1183,7 +1171,6 @@
 				9838484A5AB7D8CCA1D8AC95D0CE5608 /* Validation.swift */,
 				F248FD06CE58F1F11DB6D26A13FEFA04 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1192,7 +1179,6 @@
 			children = (
 				095A60AA3C943CD59EF323E2A24CA7B9 /* ArticleFlowInitiator.swift */,
 			);
-			name = Protocol;
 			path = Protocol;
 			sourceTree = "<group>";
 		};
@@ -1202,7 +1188,6 @@
 				A946615B0FF16A2328F9BD818F1D5E95 /* ArticleListViewModel.swift */,
 				B0893E3DD1856DCD63E7FCD69486E678 /* ArticleViewModel.swift */,
 			);
-			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -1225,7 +1210,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -1286,11 +1270,10 @@
 		F5D37BE8363C3FB3FD147AB8F5FC45D9 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C35655A01D4113DFE52B1BCD25759A5B /* Error+Extension.swift */,
 				E580DB2C396CBCA75D980C500BBAEA6A /* ReusableViewType.swift */,
+				C35655A01D4113DFE52B1BCD25759A5B /* Error+Extension.swift */,
 				404A67A8A382A4A28E105DB28AA533D1 /* UICollectionView.swift */,
 			);
-			name = Extension;
 			path = Extension;
 			sourceTree = "<group>";
 		};
@@ -1299,7 +1282,6 @@
 			children = (
 				41985AF9FC011297078F930FECB96C36 /* MockArticleService.swift */,
 			);
-			name = MockService;
 			path = MockService;
 			sourceTree = "<group>";
 		};
@@ -2226,11 +2208,7 @@
 				INFOPLIST_FILE = "Target Support Files/ArticleModule/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ArticleModule/ArticleModule.modulemap";
 				PRODUCT_MODULE_NAME = ArticleModule;
 				PRODUCT_NAME = ArticleModule;
@@ -2261,11 +2239,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyJSON;
 				PRODUCT_NAME = SwiftyJSON;
@@ -2297,11 +2271,7 @@
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
 				PRODUCT_MODULE_NAME = Kingfisher;
 				PRODUCT_NAME = Kingfisher;
@@ -2366,11 +2336,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ArticleViewer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2405,11 +2371,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ArticleViewerTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2443,11 +2405,7 @@
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
 				PRODUCT_MODULE_NAME = Kingfisher;
 				PRODUCT_NAME = Kingfisher;
@@ -2478,11 +2436,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -2530,11 +2484,7 @@
 				INFOPLIST_FILE = "Target Support Files/IHProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IHProgressHUD/IHProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = IHProgressHUD;
 				PRODUCT_NAME = IHProgressHUD;
@@ -2615,11 +2565,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ArticleViewerTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2654,11 +2600,7 @@
 				INFOPLIST_FILE = "Target Support Files/ArticleModuleService/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ArticleModuleService/ArticleModuleService.modulemap";
 				PRODUCT_MODULE_NAME = ArticleModuleService;
 				PRODUCT_NAME = ArticleModuleService;
@@ -2690,11 +2632,7 @@
 				INFOPLIST_FILE = "Target Support Files/ArticleModuleService/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ArticleModuleService/ArticleModuleService.modulemap";
 				PRODUCT_MODULE_NAME = ArticleModuleService;
 				PRODUCT_NAME = ArticleModuleService;
@@ -2727,11 +2665,7 @@
 				INFOPLIST_FILE = "Target Support Files/CommonModule/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CommonModule/CommonModule.modulemap";
 				PRODUCT_MODULE_NAME = CommonModule;
 				PRODUCT_NAME = CommonModule;
@@ -2778,11 +2712,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyJSON;
 				PRODUCT_NAME = SwiftyJSON;
@@ -2815,11 +2745,7 @@
 				INFOPLIST_FILE = "Target Support Files/NetworkService/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NetworkService/NetworkService.modulemap";
 				PRODUCT_MODULE_NAME = NetworkService;
 				PRODUCT_NAME = NetworkService;
@@ -2852,11 +2778,7 @@
 				INFOPLIST_FILE = "Target Support Files/ArticleModule/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ArticleModule/ArticleModule.modulemap";
 				PRODUCT_MODULE_NAME = ArticleModule;
 				PRODUCT_NAME = ArticleModule;
@@ -2955,11 +2877,7 @@
 				INFOPLIST_FILE = "Target Support Files/NetworkService/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NetworkService/NetworkService.modulemap";
 				PRODUCT_MODULE_NAME = NetworkService;
 				PRODUCT_NAME = NetworkService;
@@ -3007,11 +2925,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ArticleViewer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3045,11 +2959,7 @@
 				INFOPLIST_FILE = "Target Support Files/CommonModule/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CommonModule/CommonModule.modulemap";
 				PRODUCT_MODULE_NAME = CommonModule;
 				PRODUCT_NAME = CommonModule;
@@ -3119,8 +3029,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -3143,11 +3052,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -3178,11 +3083,7 @@
 				INFOPLIST_FILE = "Target Support Files/IHProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IHProgressHUD/IHProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = IHProgressHUD;
 				PRODUCT_NAME = IHProgressHUD;
